@@ -1,0 +1,13 @@
+# Visual Studio temporary files
+.vs/
+*.vsidx
+*.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# Node.js dependencies
+node_modules/
+
+# Dist folder
+dist/
