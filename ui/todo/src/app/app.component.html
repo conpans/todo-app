@@ -1,0 +1,28 @@
+<app-toast #toast></app-toast>
+
+<div class="todo-container">
+  <h2 class="header">Todo App</h2>
+
+  <!-- Input Section -->
+  <div class="input-section">
+    <input
+      type="text"
+      [(ngModel)]="newtask"
+      placeholder="Enter a new task"
+      class="task-input"
+    />
+    <button (click)="add_task()" class="add-task-button">
+      <fa-icon [icon]="['fas', 'plus']"></fa-icon> <!-- Add Task Icon -->
+    </button>
+  </div>
+
+  <!-- Task List Section -->
+  <div class="task-list">
+    <div *ngFor="let item of tasks" class="task-item">
+      <span class="task-text">♦ {{ item.task }}</span>
+      <button (click)="delete_task(item.id)" class="delete-task-button">
+        <fa-icon [icon]="['fas', 'trash']"></fa-icon> <!-- Delete Task Icon -->
+      </button>
+    </div>
+  </div>
+</div>

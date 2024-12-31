@@ -1,0 +1,11 @@
+<div class="toast-container">
+    <div
+      *ngFor="let toast of toasts"
+      class="toast"
+      [class.toast-fade-out]="toast.fading"
+      [ngClass]="toast.type"
+    >
+      {{ toast.message }}
+    </div>
+  </div>
+  
