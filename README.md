@@ -4,7 +4,7 @@ A simple, Todo application built with Angular, C#, and Microsoft Sql Server
 
 ## Screenshot
 
-[Screenshot of the application](assets/screenshot.png)
+![Screenshot of the application](assets/screenshot.png)
 
 
 ## Features
