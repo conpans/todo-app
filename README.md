@@ -59,7 +59,8 @@ A simple, Todo application built with Angular, C#, and Microsoft Sql Server
 - A backend API running on `http://localhost:8000/`.
 
 
-Usage
+### Usage
+
 Add a Task
 Enter a task description in the input box.
 Click the Add button (with the + icon).
